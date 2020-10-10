@@ -1,0 +1,35 @@
+server:
+  #端口号
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  mvc:
+    view:
+      # 页面默认前缀目录
+      prefix: /WEB-INF/
+      # 响应页面默认后缀
+      suffix: .jsp
+
+swagger:
+  title: API标题
+  description: API描述
+  version: 1.0
+  terms-of-service-url: https://www.huangxin.work/
+  base-package: work.huangxin.hequn
+  contact:
+    name: xin-felix
+    url: https://www.huangxin.work/
+    email: 1538933906@qq.com
+
+logging:
+  level:
+    work.huangxin.display.mapper: debug
+
+spring.jackson.date-format: yyyy-MM-dd HH:mm
+
+#这个是时区，一定要加，否则会默认为格林尼治时间，即少8小时
+spring.jackson.time-zone: Hongkong
