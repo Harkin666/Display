@@ -8,4 +8,4 @@ maven项目,使用idea编译.
 
 #### SpringBoot后端，前端原生页面
 
-## 演示地址：http://display.huangxin.work
+## 演示地址：display1.harkin.dev
